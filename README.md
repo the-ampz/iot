@@ -53,9 +53,13 @@ Os dados coletados pelos sensores são enviados para a plataforma **thinger.io**
 4. O aplicativo conecta-se ao **Thinger.io** para aplicar gamificação baseada nos dados do dashboard.  
 
 ### Diagrama
+Você pode acessar a simulação e diagrama interativo do dispositivo no Wokwi [clicando aqui](https://wokwi.com/projects/414675519131413505).
+
 ![Diagrama do dispositivo](.github/diagram.png)
 
 ## Modelagem 3D do dispositivo
+A modelagem 3D do dispositivo foi desenvolvida através da plataforma Tinkercad e você pode acessá-la [clicando aqui](https://www.tinkercad.com/things/4eVindmoBsi-ampz-iot-device?sharecode=_S5Z-gNfWnl0NAc6WFArF4PmYOewIusiX7Qn_JdlP4I).
+
 ![Modelagem do dispositivo](.github/model.png)
 
 ---
