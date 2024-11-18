@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "author": "Erick Nathan",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": -19.2, "left": 33.64, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": -109.2,
+      "left": 176.6,
+      "attrs": { "color": "red" }
+    },
+    { "type": "wokwi-pir-motion-sensor", "id": "pir1", "top": 23.2, "left": 146.22, "attrs": {} },
+    {
+      "type": "wokwi-photoresistor-sensor",
+      "id": "ldr1",
+      "top": 124.5,
+      "left": -130.3,
+      "rotate": 90,
+      "attrs": {}
+    },
+    { "type": "wokwi-potentiometer", "id": "pot1", "top": -58.9, "left": -86.6, "attrs": {} },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": -35,
+      "left": 162.35,
+      "rotate": 270,
+      "attrs": { "value": "220" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "esp:5V", "ldr1:VCC", "red", [ "h-19.05", "v86.4", "h-48" ] ],
+    [ "esp:GND.1", "ldr1:GND", "black", [ "h-28.65", "v124.8", "h-48.4" ] ],
+    [ "pir1:VCC", "esp:5V", "red", [ "v96", "h-163.2", "v-28.8" ] ],
+    [ "pir1:GND", "esp:GND.1", "black", [ "v86.4", "h-173.06", "v-67.2" ] ],
+    [ "pir1:OUT", "esp:4", "violet", [ "v0" ] ],
+    [ "esp:23", "led1:A", "green", [ "h0" ] ],
+    [ "pot1:GND", "esp:GND.1", "black", [ "v48", "h86.4", "v76.8" ] ],
+    [ "pot1:VCC", "esp:VN", "red", [ "h-0.8", "v28.8" ] ],
+    [ "pot1:SIG", "esp:34", "orange", [ "h-0.4", "v38.4", "h86.25" ] ],
+    [ "ldr1:DO", "esp:12", "blue", [ "v9.6", "h48.6", "v-124.8" ] ],
+    [ "r1:2", "led1:C", "black", [ "h0" ] ],
+    [ "esp:GND.2", "r1:1", "black", [ "h57.6", "v-9.6" ] ]
+  ],
+  "dependencies": {}
+}
