@@ -1,6 +1,4 @@
-<div style="height:48px;width:100%;background:white;display:flex;align-items:center;justify-content:center;padding:16px;">
-    <img src=".github/logo.svg" alt="Ampz">
-</div>
+<img src=".github/banner.svg" alt="Ampz" width="100%">
 
 ---
 
