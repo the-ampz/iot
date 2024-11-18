@@ -14,7 +14,7 @@ O projeto visa identificar desperdício de energia elétrica em ambientes freque
 - **Sensor PIR**: Detecta a presença no ambiente.  
 - **LED vermelho**: Indica quando há desperdício de energia elétrica.  
 
-Os dados coletados pelos sensores são enviados para a plataforma **thinger.io** via **protocolo MQTT**, onde são processados e exibidos em um **dashboard em tempo real**. Um aplicativo conectado ao sistema aplica conceitos de gamificação para motivar o uso consciente de energia.  
+Os dados coletados pelos sensores são enviados para a plataforma **thinger.io** via **protocolo IOTMP**, onde são processados e exibidos em um **dashboard em tempo real**. Um aplicativo conectado ao sistema aplica conceitos de gamificação para motivar o uso consciente de energia.  
 
 ---
 

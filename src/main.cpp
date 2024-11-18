@@ -10,7 +10,7 @@ ThingerESP32 thing(USERNAME, DEVICE_ID, DEVICE_CREDENTIAL);
 #define SSID_PASSWORD ""
 
 #define LED_PORT 23
-#define PHOTORESISTOR_PORT 16
+#define PHOTORESISTOR_PORT 12
 #define PIR_PORT 4
 #define POTENTIOMETER_PORT 34
 
@@ -76,12 +76,8 @@ void loop() {
   leituraLuminosidade();
   leituraCorrente();
   
-  // Desperdício de energia detectado
-  if(presencaDetectada == LOW && (luzLigada == HIGH || valorCorrente > 0)) {
-    digitalWrite(LED_PORT, LOW);
-  } else {
-    digitalWrite(LED_PORT, HIGH);
-  }
+  bool desperdicioEnergia = presencaDetectada == LOW && (luzLigada == HIGH || valorCorrente > 0);
+  digitalWrite(LED_PORT, desperdicioEnergia ? HIGH : LOW);
 
   thing.handle();
   
