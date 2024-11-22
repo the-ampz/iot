@@ -6,6 +6,12 @@ Este repositório contém o projeto **Ampz**, desenvolvido como parte da discipl
 
 ---
 
+## 🚀 Vídeo do Pitch do projeto  
+
+[Link para o vídeo](#) apresentando a solução, seus benefícios e funcionamento.  
+
+---
+
 ## 📋 **Descrição do Projeto**  
 
 O projeto visa identificar desperdício de energia elétrica em ambientes frequentados por crianças, utilizando:  
@@ -39,7 +45,7 @@ Os dados coletados pelos sensores são enviados para a plataforma **thinger.io**
 
 ### **Software e Plataforma:**  
 - **Thinger.io**: Gateway e plataforma para criação de dashboards.  
-- **MQTT**: Protocolo de comunicação entre os dispositivos IoT e o gateway.  
+- **IOTMP**: Protocolo de comunicação entre os dispositivos IoT e o gateway.  
 - **Wokwi**: Simulador para testes preliminares.
 
 ---
@@ -105,11 +111,5 @@ O dashboard foi desenvolvido no Thinger.io, permitindo:
 - Redução do consumo energético em ambientes domésticos.  
 - Conscientização das crianças sobre o uso sustentável de energia.  
 - Interface amigável e gamificada para engajar os usuários.  
-
----
-
-## 🎥 **Vídeo de Apresentação**  
-
-[Link para o vídeo](#) apresentando a solução, seus benefícios e funcionamento.  
 
 ---
