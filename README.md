@@ -8,7 +8,7 @@ Este repositório contém o projeto **Ampz**, desenvolvido como parte da discipl
 
 ## 🚀 Vídeo do Pitch do projeto  
 
-[Link para o vídeo](#) apresentando a solução, seus benefícios e funcionamento.  
+[Link para o vídeo](https://www.youtube.com/watch?v=AjYOZ6lY51U) apresentando a solução, seus benefícios e funcionamento.  
 
 ---
 
