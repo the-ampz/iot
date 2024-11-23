@@ -112,4 +112,14 @@ O dashboard foi desenvolvido no Thinger.io, permitindo:
 - Conscientização das crianças sobre o uso sustentável de energia.  
 - Interface amigável e gamificada para engajar os usuários.  
 
+
 ---
+
+## 👥 Equipe
+Este projeto está sendo desenvolvido pelos seguintes membros:
+
+- RM99565 - Erick Nathan Capito Pereira (2TDSPV)
+- RM99577 - Guilherme Dias Gomes (2TDSPX)
+- RM550889 - Hemily Nara da Silva (2TDSPX)
+- RM550841 - Lucas Araujo Oliveira Silva (2TDSPV)
+- RM99409 - Michael José Bernardi Da Silva (2TDSPX)
